@@ -1,8 +1,9 @@
 let button = document.getElementById('btn');
-let paragrafPierwszy = document.querySelector('.czerwony');
-let paragrafDrugi = document.querySelector('.zolty');
 
-function setBackground() {
+const setBackground = () => {
+    let paragrafPierwszy = document.querySelector('.czerwony');
+    let paragrafDrugi = document.querySelector('.zolty');
+
     paragrafPierwszy.style.backgroundColor = 'red';
     paragrafDrugi.style.backgroundColor = 'yellow';
 }
